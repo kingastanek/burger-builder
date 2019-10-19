@@ -5,7 +5,17 @@ export {
   setIngredients,
   fetchIngredientsFailed
 } from "./burgerBuilder";
-export { purchaseBurger, purchaseInit, fetchOrders } from "./order";
+export {
+  purchaseBurger,
+  purchaseInit,
+  fetchOrders,
+  purchaseBurgerSuccess,
+  purchaseBurgerFail,
+  purchaseBurgerStart,
+  fetchOrdersStart,
+  fetchOrdersSuccess,
+  fetchOrdersFail
+} from "./order";
 export {
   auth,
   logout,
